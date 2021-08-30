@@ -1,0 +1,58 @@
+###
+# Unity folders and files
+###
+[Aa]ssets/AssetStoreTools*
+[Bb]uild/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Uu]nityGenerated/
+# file on crash reports
+sysinfo.txt
+# Unity3D generated meta files
+*.pidb.meta
+
+###
+# VS/MD solution and project files
+###
+[Ee]xportedObj/
+*.booproj
+*.csproj
+*.sln
+*.suo
+*.svd
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+.DS_Store
+
+###
+# OS generated
+###
+.DS_Store
+*.unitypackage
+*results/
+*results.meta
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+Assets/ML-Agents/Examples/Crawler/Demos/*
+Assets/SteamPunk_Kart/Textures/*
+Assets/ML-Agents/Examples/Walker/Demos/*
+Assets/ML-Agents/Examples/Match3/TFModels/*
+Logs/*
+Assets/ML-Agents/Examples/CarAgentScenario2/Scripts/AdamCharacterPack/*
+Assets/Demonstrations/*
+Assets/ML-Agents/Timers/*
+Assets/ML-Agents/Examples/CarAgentSimple/Scenes/KartMLAgent_test_CPU_GPU.*
+*.meta
+doxygen/html/*
+doxygen/latex/*
+doxygen/doxymanual

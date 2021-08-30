@@ -1,0 +1,28 @@
+ls=dir $* $T
+t=cd Desktop\KARlab_UC3_Unity\POC1\Assets\ML-Agents\Examples\CarAgentScenario2\Config $T
+ci=conda info --envs $T
+a=conda activate ml-r17-OUI $T
+ac=conda activate Carla_py_3.7 $T
+gc=cd Desktop\UC3_Carla
+clear=cls $*
+l=mlagents-learn $*
+docml=mlagents-learn --help
+res=tensorboard --logdir results --port 6006
+c=.\CarlaUE4.exe -quality-level=Low -ResX=500 -ResY=500 -fps=10 -windowed $T
+
+alias   = doskey $*
+cat     = type $*
+clear   = cls $*
+cp      = copy $*
+cpr     = xcopy $*
+grep    = find $*
+history = doskey /history
+kill    = taskkill /PID $*
+ls      = dir $*
+man     = help $*
+mv      = move $*
+ps      = tasklist $*
+pwd     = cd
+rm      = del $*
+rmr     = deltree $*
+sudo    = runas /user:administrator $*
